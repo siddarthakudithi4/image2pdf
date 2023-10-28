@@ -17,7 +17,7 @@ def sign_in():
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="mysqlaccount",
+        password="",
         database="final"
     )
     cursor = conn.cursor()
